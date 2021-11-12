@@ -1,0 +1,135 @@
+/* Schriftart */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+html {}
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 11pt;
+    /* background-color: #FFFFFF; */
+}
+.dertest {
+        padding: 1rem;
+        background-color: #7e33e5;
+        border: 2px solid #fff;
+        color: #FFFFFF;
+        text-align: start ;
+    }
+.ÜberschriftA {
+    color: #76a646;
+    font-size: 40pt;
+}
+.Bild {
+
+}
+
+#Textoben {
+    color: #76a646;
+    font-size: 45pt;
+    height: 15rem;
+    justify-content: center;
+    align-content: center;
+}
+.slider-image {
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-caption {
+    color: #FFFFFF;
+
+}
+.Fett {
+    font-weight: bold;
+}
+
+.ÜberschriftB {
+    color: #b34834;
+    font-size: 40pt;
+}
+
+.TextA {
+    color: #717171;
+}
+
+.TextB {
+    color: #878685;
+}
+
+.KnopfA {
+    color: #a0c17f;
+}
+
+.KnopfB {
+    color: #c57666;
+}
+.Hintergrund {
+    background-color: #f7f2ef;
+}
+#suche {
+    background-color: #f7f4f1;
+    border-radius: 2px;
+    display: flex;
+    height: 2rem;
+    width: 20rem;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.suchen {
+    all:unset;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+.suchenknopf {
+    all: unset;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.svgsuche {
+    color: #45652b;
+    width: 100%;
+    height: 100%;
+
+}
+
+#iconsoben {
+    display:flex;
+    justify-content: end;
+}
+
+#boxoben {
+    display: flex;
+    justify-content: flex-end;
+
+}
+#container-2 {
+    display: flex;
+    align-content: flex-start;
+}
+.row-fluid {
+    display: flex;
+}
+
+.bildslide {
+
+}
+/* Slider */
+
+.Slider {
+    display: flex;
+    width: auto;
+    height: 500px;
+}
+
+#sliding {
+    width: auto;
+    height: 250px;
+}

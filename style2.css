@@ -1,0 +1,71 @@
+/* Schriftart */
+
+
+
+.body {
+    font-family: 'Lato', "sans-serif";
+}
+/*Headline*/
+#headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #76a646;
+    font-size: 15pt;
+    font-weight: 500;
+    align-items: center;
+}
+
+
+    /* Suchleiste rechts*/
+#Iconsoben {
+    display: flex;
+    justify-content: flex-end;
+    color: #204701;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+
+}
+#suche {
+    border: none;
+    background-color: #f7f4f1;
+}
+#suchknopf {
+    display: flex;
+    border: none;
+    background-color: #f7f4f1;
+    width: 2rem;
+    height: 33px;
+    color: #204701;
+}
+#suchleiste {
+    display: flex;
+    justify-content: flex-end;
+}
+    /**/
+
+    /* Karusell */
+.carousel-item {
+    height: 32rem;
+    background: #777;
+    color: #FFFFFF;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+#carousel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:50px;
+
+    }
+#carousel1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:50px;
+}
